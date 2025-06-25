@@ -1,34 +1,20 @@
-<html lang="fr">
-
-<head>
-    <meta charset="utf-8">
-    <title>jeu HTML5</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js"></script>
-
-    <script type="module" src="js/script.js"></script>
-</head>
-
-<body>
-    <h1 style="font-size:70px; text-align:center;">من يسكن البحر و يحبه الناس؟</h1>
-    <style>
-        body {
-            background: url("./assets/images/arrimg.jpg");
-            
-        }
-    </style>
-    <br>
-    <canvas id="myCanvas" width="800" height="600"></canvas>
-    <br>
-
-    
-      
-    <!-- 
-        <video id="sourcevid" autoplay loop controls>
-            <source src="https://mainline.i3s.unice.fr/mooc/BigBuckBunny_640x360.mp4" type="video/mp4" />
-            <source src="https://mainline.i3s.unice.fr/mooc/BigBuckBunny_640x360.ogv" type="video/ogg"/>
-        </video>
-        -->
-</body>
-
-</html>
+h1 {
+    color:red;
+}
+body {
+    background: url("../assets/images/arrimg.jpg");
+}
+#myCanvas {
+    border: 1px solid black;
+    background-color: lightgray;
+    background-image: url("../assets/images/envi.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 5000px;
+    height: 2500px;
+    display: block;
+    margin: 0 auto;
+}
+video {
+    display:none;
+}
